@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1040px;
+    margin: 0 auto;
+}
+
+header{
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+header h1{
+    padding: 30px 0;
+    margin-left: 150px;
+}
+
+.menu ul li{
+    font-size: 15px;
+    display: inline-block;
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+.menu{
+    position: absolute;
+    top: 44px;
+    right: 70px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover{
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+.conteudo{
+    margin-top: 40px;
+}
+
+.conteudo img{
+    width: 220px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+figure figcaption{
+    padding-left: 10px;
+}
+
+.rede-social ul li{
+    display: inline-block;
+    margin: 30px 20px 0 30px;
+    color:cadetblue;
+}
+
+.rede-social a:hover{
+    color: #3333;
+}
+
+.img{
+    float: left;
+}
+
+label{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form{
+    padding: 40px 200px 0 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ecf0f1;
+}
+
+.btn{
+    padding: 5px;
+    margin: 10px 0 70px 10px;
+    width: 60px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 120px;
+    text-align: center;
+}
