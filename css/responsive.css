@@ -1,0 +1,29 @@
+@media (max-width: 960px){
+    .container{
+        width: 400px;
+        margin: auto;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header h1{
+        margin-bottom: 10px;
+        align-content: center;
+    }
+
+    .menu{
+        position: static;
+        margin: 5px 71px;
+    }
+    
+    .menu ul li{
+        margin: 0 10px;
+    }
+
+    .banner img{
+        display: none;
+    }
+}

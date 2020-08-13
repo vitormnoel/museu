@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 1040px;
+            margin: 0 auto;
+        }
+
+        
+
+        .painel li:hover {
+            background-color: rgb(114, 113, 113);
+        }
+
+        #menuu{
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="painel" >
+        <ul class="container">
+            <li>
+                <a href="#">Pré-história</a>
+                <ul>
+                    <li><a href="#">Período Paleolítico</a></li>
+                    <li><a href="#">Período Neolítico</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Antiguidade</a>
+                <ul>
+                    <li><a href="#">Mesopotâmica</a></li>
+                    <li><a href="#">Egípcia</a></li>
+                    <li><a href="#">Celta e Germânica</a></li>
+                    <li><a href="#">Egeia</a></li>
+                    <li><a href="#">Fenícia</a></li>
+                    <li><a href="#">Etrusca</a></li>
+                    <li><a href="#">Grega</a></li>
+                    <li><a href="#">Romana</a></li>
+                    <li><a href="#">Paleocristã</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Medieval</a>
+                <ul class="sub-painel">
+                    <li><a href="#">Bizantina</a></li>
+                    <li><a href="#">Românica</a></li>
+                    <li><a href="#">Gótica</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Renascentista</a>
+                <ul class="sub-painel">
+                    <li><a href="#">Renascimento Cultural</a></li>
+                    <li><a href="#">Artístico</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Pré-Colombiana</a>
+                <ul class="sub-painel">
+                    <li><a href="#">Arte Inca</a></li>
+                    <li><a href="#">Arte Asteca</a></li>
+                    <li><a href="#">Arte Maia</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Contemporânea</a>
+                <ul class="sub-painel">
+                    <li><a href="#">Neoclassicismo</a></li>
+                    <li><a href="#">Romantismo</a></li>
+                    <li><a href="#">Realismo</a></li>
+                    <li><a href="#">Impressionismo</a></li>
+                    <li><a href="#">Pós-impressionismo</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Modernismo</a>
+                <ul class="sub-painel">
+                    <li><a href="#">Expressionismo</a></li>
+                    <li><a href="#">Fauvismo</a></li>
+                    <li><a href="#">Cubismo</a></li>
+                    <li><a href="#">Futurismo</a></li>
+                    <li><a href="#">Dadaísmo</a></li>
+                    <li><a href="#">Surrealismo</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Pós-moderna</a>
+                <ul class="sub-painel">
+                    <li><a href="#">Arte Conceitual</a></li>
+                    <li><a href="#">Arte Povera</a></li>
+                    <li><a href="#">Arte Cinética</a></li>
+                    <li><a href="#">Pop Art</a></li>
+                    <li><a href="#">Op Art</a></li>
+                    <li><a href="#">Expressionismo Abstrato</a></li>
+                    <li><a href="#">Minimalismo</a></li>
+                    <li><a href="#">Land Art</a></li>
+                    <li><a href="#">Arte Urbana</a></li>
+                    <li><a href="#">Grafite</a></li>
+                    <li><a href="#">Body Art</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 class="container">oi</h1>
+    <p style="background-color: black; width: 100vw; height: 10px;"></p>
+    <p id="menuu" onmouseover="submenu(clic)"> quero comer cu porra </p>
+    
+    <script>
+        var clic = document.getElementById('menuu')
+
+        function submenu(clic){
+            clic.style.display="inline";
+        }
+
+    </script>
+</body>
+
+</html>

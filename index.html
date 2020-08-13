@@ -1,121 +1,156 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <!-- "themes.theme": "dark-theme", -->
-    <head>
-        <meta charset="UTF-8">
-        
-        <link rel="stylesheet" type="text/css" href="css/saiba.css">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet"> 
-        <title>Museu</title>
-    </head>
-    <body>
-        <header>
-            <h1>MUSeu</h1>
-            
-            <div class="menu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    
+    <title>The Museum</title>
+</head>
+
+<body>
+
+    <header class="menu container">
+        <img src="img/marca.png" alt="The Museum">
+
+        <ul>
+            <li><a href="index.html">home &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|</a></li>
+            <li><a href="#">obras &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|</a></li>
+            <li><a href="saiba-mais.html">saiba mais &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|</a></li>
+            <li><a href="contato.html">contato</a></li>
+        </ul>
+    </header>
+
+    <div class="van container">
+        <img class="si" src="img/signature.png" alt="">
+    </div>
+
+    <section class="quadro">
+        <div class="content-1 container">
+            <img src="img/vincent-van-gogh.jpg" alt="Pintura de Vincent van Gogh" title="van Gogh">
+        </div>
+
+        <div class="content-2 container">
+            <p>
+                <strong>Vincent van Gogh</strong> foi um importante pintor holandês, um dos maiores representantes
+                da pintura pós-impressionista. Vincent Willem van Gogh (1853-1890) nasceu em Zundert,
+                uma pequena aldeia holandesa, no dia 30 de março de 1853. Filho de um pastor calvinista
+                era uma criança rebelde e insociável.
+            </p>
+        </div>
+    </section>
+
+    <div class="conteudo container">
+        <h1>mais visto esta semana</h1>
+
+        <div class="conte">
+            <figure>
+                <img src="img/noiteestrelada.jpg" alt="Noite estrelada" title="Noite Estrelada">
+                <figcaption>Noite Estrelada (1889) - Vincent van Gogh</figcaption>
+            </figure>
+
+            <section>
+                <h4>Noite Estrelada</h4>
+                <p>O quadro A Noite Estrelada, de Vincent van Gogh,
+                    foi pintado em 1889. É um óleo sobre tela, com 74 cm x 92 cm, e se
+                    encontra no Museu de Arte Moderna de São Francisco (SFMOMA).</p>
+                </br>
+                <p>A pintura retrata a vista da janela do quarto do artista no hospício de
+                    Saint-Rémy-de-Provence.</p>
+            </section>
+        </div>
+    </div>
+
+    <section class="aviso">
+        <ul class="container">
+            <li>
+                <a href="#">
+                    <figure>
+                        <img src="img/1.png" alt="linha do tempo">
+                        <figcaption>artistas</figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <figure>
+                        <img src="img/2.png" alt="artistas">
+                        <figcaption>linha do tempo</figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <figure>
+                        <img src="img/3.png" alt="cinema">
+                        <figcaption>faça parte</figcaption>
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <figure>
+                        <img src="img/4.png" alt="obras mais vistas">
+                        <figcaption>história</figcaption>
+                    </figure>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="donate cont-1">
+            <div class="cont-1-1">
+                <h4>Doe Para Uma Instituição</h4>
+                <a href="#"><img src="img/DONATE TO ARTISTIC COMMUNITY.png" alt="Banner Doação"></a>
+            </div>
+            <div class="cont-1-2">
+                <h4>Planeje Sua Visita</h4>
+
                 <ul>
-                    <li><a href="index.html">sobre</a></li>
-                    <li><a href="saiba-mais.html">saiba mais</a></li>
-                    <li><a href="contato.html">contato</a></li>
+                    <li><a href="#">Calendário</a></li>
+                    <li><a href="#">Ingressos e Agendamntos</a></li>
+                    <li><a href="#">Quais exibições ver?</a></li>
+                    <li><a href="#">Grupos e Escolas</a></li>
+                    <li><a href="#">Seja Membro</a></li>
+                    <li><a href="#">Entre em contato</a></li>
+                    <li><a href="#">Mapa</a></li>
                 </ul>
             </div>
-        </header>
-        
-        <div class="banner">
-            <img src="img/arvore.jpg" alt="floresta" title="">
         </div>
-        
-        <div class="centro container">
-            
-            <h1>OBRAS</h1>
-            
-            <ul>
-                <li>
-                    <figure>
-                        <img src="img/amendoeira.jpg" alt="amendoeira">
-                        <figcaption>
-                            <h3>Amendoeiras</h3>
-                            <br/>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="img/noiteestrelada.jpg" alt="noite estralada">
-                        <figcaption>
-                            <h3>Noite Estrelada</h3>
-                            <br/>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="img/quarto.jpg" alt="quarto">
-                        <figcaption>
-                            <h3>Quarto</h3>
-                            <br/>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="img/landscap.jpg" alt="campo coberto de neve">
-                        <figcaption>
-                            <h3>Landscap</h3>
-                            <br/>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="img/campodetrigo.jpg" alt="campo de trigo com passaros sobrevoando">
-                        <figcaption>
-                            <h3>Campo de Trigo</h3>
-                            <br/>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="img/van-gogh.jpg"  alt="cipreste">
-                        <figcaption>
-                            <h3>Cipreste</h3>
-                            <br/>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="img/igreja.jpg"  alt="cipreste">
-                        <figcaption>
-                            <h3>Cipreste</h3>
-                            <br/>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="img/girassois.jpg"  alt="vaso com girassois">
-                        <figcaption>
-                            <h3>Girassóis</h3>
-                            <br/>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="img/vinha.jpg"  alt="vinha">
-                        <figcaption>
-                            <h3>Vinha</h3>
-                            <br/>
-                        </figcaption>
-                    </figure>
-                </li>
-            </ul>
+
+        <div class="cont-2">
+            <div class="cont-2-1">
+                <h4>Navegue Pelo Site</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Obras</a></li>
+                    <li><a href="#">Saiba Mais</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <div class="cont-2-2">
+                <ul>
+                    <li><a href="#"><img src="img/facebook.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="img/instagram.png" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="img/pinterest.png" alt="Pinterest"></a></li>
+                    <li><a href="#"><img src="img/twitter.png" alt="Twitter"></a></li>
+                </ul>
+
+                <h3>My Museum</h3>
+                <label for="email">Email: </label>
+                <input type="email" id="email" placeholder="themuseum@gmail.com">
+                </br>
+                <label for="num">Celular:</label>
+                <input type="tel" id="num" placeholder="(**) *****-****">
+            </div>
         </div>
-        
-        <footer>
-            <p>Copyright&#169 All rights reserved.</p>
-        </footer>
-    </body>
+    </footer>
+    <div class="direitos">the museum &#169 - Todos os direitos reservados - themuseum.com</div>
+</body>
+
 </html>

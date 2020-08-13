@@ -44,78 +44,50 @@ ul, ol, li {
 }
 
 /*conteudo*/
-.painel{
-    text-align: center;
-    background-color: rgb(110, 201, 231);
+.container-1{
+    overflow-x: scroll;
+    overflow-y: scroll;
+    height: 500px;
+    white-space:nowrap;
 }
 
-.painel ul li{
-    display: inline-table;
-    font-size: 16px;
-    padding: 6px;
-    margin: auto 10px;
+.conteudo{
+    margin-top: 10px;
 }
 
-.painel li li{
-    display: list-item;
+.conteudo ul li{
+    display: inline-block;
 }
 
-.painel a{
-    text-decoration: none;
-    color: rgb(70, 70, 70);
+.conteudo li{
+    margin: 10px;
 }
 
-.painel li:hover{
-    background-color: rgb(168, 219, 235);
-}
-
-.painel a:hover{
-    color: black;
-}
-
-.painel ul ul{
-    display: none;
-}
-
-.van img{
-    width: 282px;
-    height: 350px;
-}
-
-.van{
-    margin: 0 35px 10px 0;
+.conteudo figure img{
     float: left;
 }
 
-.van h4{
-    font-size: 20px;
-    padding-bottom: 5px;
+.fig-1 img{
+    height: 400px;
+    width: 500px;
 }
 
-.van figcaption{
-    text-align: center;
+.fig-2 img{
+    height: 450px;
+    width: 600px;
 }
 
-article p{
-    text-align: justify; 
-    text-indent: 30px;
-    line-height: 20px;
+.fig-3 img{
+    height: 500px;
+    width: 370px;
 }
 
-.conteudo h2{
-    font-size: 30px;
-    margin: 10px 0;
-}
-.conteudo h2{
-    margin: 20px auto 10px;
+.fig-4 img{
+    height: 400px;
+    width: 500px;
 }
 
-.vin{
-    margin: 20px 0;
-    float: right;
-}
-
-/*rodapé*/
+/*rodape*/
 footer{
     color: rgb(219, 219, 219);
     margin-top: 50px;
@@ -193,7 +165,7 @@ footer a:hover{
 
 .cont-2-2 img:hover{
     border-radius: 50px;
-    background-color: rgb(18, 154, 196);;
+    background-color: rgb(18, 154, 196);
 }
 
 .cont-2-2 li{

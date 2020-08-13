@@ -43,76 +43,127 @@ ul, ol, li {
     color: rgb(18, 154, 196);
 }
 
-/*conteudo*/
-.painel{
-    text-align: center;
-    background-color: rgb(110, 201, 231);
-}
-
-.painel ul li{
-    display: inline-table;
-    font-size: 16px;
-    padding: 6px;
-    margin: auto 10px;
-}
-
-.painel li li{
-    display: list-item;
-}
-
-.painel a{
-    text-decoration: none;
-    color: rgb(70, 70, 70);
-}
-
-.painel li:hover{
-    background-color: rgb(168, 219, 235);
-}
-
-.painel a:hover{
-    color: black;
-}
-
-.painel ul ul{
-    display: none;
-}
-
-.van img{
-    width: 282px;
-    height: 350px;
-}
-
+/*banner*/
 .van{
-    margin: 0 35px 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 200px 0;
+}
+
+.si{
+    width: 150px;
+    margin-left: 50px;
+}
+
+.quadro:first-of-type{
+    height: 400px;
+    background-color: rgba(47, 90, 110, 0.884);
+}
+
+.content-1 img{
+    margin: 20px ;
+    width: 300px;
     float: left;
 }
 
-.van h4{
-    font-size: 20px;
-    padding-bottom: 5px;
+.content-2 p{
+    padding-top: 140px;
+    text-indent: 50px;
+    font-size: 16px;
+    color: rgb(207, 207, 207);
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
 }
 
-.van figcaption{
+.content-2 strong{
+    font-size: 20px;
+}
+
+.conteudo{
+    margin: 30px auto 30px 174px;
+}
+
+.conte{
+    display: flex;
+}
+
+.conteudo h1{
+    margin-bottom: 10px;
+}
+
+.conte img{
+    width: 442px;
+}
+
+.conte figcaption{
+    margin-top: 8px;
     text-align: center;
 }
 
-article p{
-    text-align: justify; 
+.conte figure{
+    padding: 12px;
+    background-color: cadetblue;
+}
+
+.conte section{
+    margin: 35px auto 2px 20px;
+    text-align: justify;
+}
+
+.conte h4{
+    font-size: 20px;
+    margin: 60px auto 10px;
+}
+
+.conte section p{
     text-indent: 30px;
-    line-height: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.conteudo h2{
-    font-size: 30px;
-    margin: 10px 0;
-}
-.conteudo h2{
-    margin: 20px auto 10px;
+.aviso{
+    height: 200px;
+    margin: 0 auto 50px;
+    padding: 30px 0 70px;
+    background-color: rgba(47, 90, 110, 0.884);
 }
 
-.vin{
-    margin: 20px 0;
-    float: right;
+.aviso ul li{
+    display: inline-block;
+}
+
+.aviso img:first-of-type{
+    margin-left: 36px;
+}
+
+.aviso img{
+    width: 200px;
+    margin: auto 15px;
+}
+
+.aviso a{
+    text-decoration: none;
+}
+
+.aviso figcaption{
+    text-align: center;
+    text-transform: uppercase;
+
+    color: rgb(184, 180, 180);
+    background-color: black;
+
+    margin: auto 16px;
+    padding: 10px 0;
+}
+
+.aviso figcaption:first-of-type{
+    margin-left: 35px;
+}
+
+.aviso figcaption:hover{
+    background-color: #4b4b4b;
+    color: white;
 }
 
 /*rodapé*/
@@ -197,7 +248,7 @@ footer a:hover{
 }
 
 .cont-2-2 li{
-    display: inline-block;
+    display: inline;
 }
 
 .cont-2-2 h3{
